@@ -1,0 +1,34 @@
+extends ../layout/layout
+
+block header
+    div.header-main
+        img(src="../../img/logo.png" width="100px" height="100px" alt="Логотип")
+        nav.header-main__nav
+            ul.nav__list
+                +list-item(link,'Личный кабинет')
+                +list-item(link,'О нас')
+                +list-item(link,'Новости и акции')
+                +list-item(link,'Контакты')
+                +list-item(link,'Блог')
+        img(src="../../img/loc-icon.svg" width="46px" height="46px")
+        button.hometown Волгоград
+
+
+block content
+    p Какой-нибудь текст.
+    +service-item(link,"Терапия","26","therapy.png")
+    +service-item(link,"Хирургия","26","surgery.png")
+    +service-item(link,"Неврология","26","neurology.png")
+    +service-item(link,"Ортопедия","26","orthopedics.png")
+    +service-item(link,"Дерматология","26","dermatology.png")
+    +service-item(link,"Офтальмология","26","ophthalmology.png")
+    +service-item(link,"Кардиология","26","cardiology.png")
+    +service-item(link,"Стоматология","26","dentistry.png")
+    +service-item(link,"Репродуктология","26","reproduction.png")
+    +service-item(link,"Визуальная диагностика","26","visual diagnostics.png")
+    +service-item(link,"Лаборатория","26","lab.png")
+    +service-item(link,"Онкология","26","oncology.png")
+    +service-item(link,"Эндокринология","26","endocr.png")
+    +service-item(link,"Экзотические животные","26","exotic.png")
+    +service-item(link,"Аптека","26","pharmacy.png")
+    +service-item(link,"Груминг","26","grooming.png")

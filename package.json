@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel ./source/index.html --no-cache"
+    "start": "npx parcel ./source/pug/pages/index.pug --no-cache"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/Dopeldonger/project-september/issues"
   },
   "homepage": "https://github.com/Dopeldonger/project-september#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "pug": "^3.0.2"
+  }
 }
