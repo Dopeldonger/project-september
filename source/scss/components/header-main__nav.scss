@@ -1,0 +1,30 @@
+.header-main__nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.list-item__text {
+  font-family: "Futura New", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  list-style-type: none;
+
+}
+a.list-item {
+  text-decoration: none;
+  color:#C3B9B5;
+}
+.nav__ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+}
+.list-item:last-child {
+  margin-right: 335px;
+}

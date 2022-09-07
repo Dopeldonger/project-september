@@ -1,17 +1,38 @@
 extends ../layout/layout
 
+
 block header
-    div.header-main
-        img(src="../../img/logo.png" width="100px" height="100px" alt="Логотип")
-        nav.header-main__nav
-            ul.nav__list
-                +list-item(link,'Личный кабинет')
-                +list-item(link,'О нас')
-                +list-item(link,'Новости и акции')
-                +list-item(link,'Контакты')
-                +list-item(link,'Блог')
-        img(src="../../img/loc-icon.svg" width="46px" height="46px")
-        button.hometown Волгоград
+    section.header-main
+        div.header-main__logo
+            img(src="../../img/logo.png" width="79px" height="62px" alt="Логотип")
+        div.header-main__nav
+            nav
+                ul.nav__ul
+                    +list-item(link,'Личный кабинет')
+                    +list-item(link,'О нас')
+                    +list-item(link,'Новости и акции')
+                    +list-item(link,'Контакты')
+                    +list-item(link,'Блог')
+        div.header-main__hometown
+            img(src="../../img/loc-icon.svg" width="46px" height="46px")
+            button.hometown-button Волгоград
+
+block slider
+    div.slider__wrapper
+        div.swiper.slider__swiper
+            div.swiper-wrapper
+                div.slider-slide
+                    img(src="../../img/slide1.jpg" alt="Слайд")
+                div.slider-slide
+                    img(src="../../img/slide2.jpg" alt="Слайд")
+                div.slider-slide
+                    img(src="../../img/slide3.jpg" alt="Слайд")
+                div.slider-slide
+                    img(src="../../img/slide4.jpg" alt="Слайд")
+                div.slider-slide
+                    img(src="../../img/slide5.jpg" alt="Слайд")
+                div.slider-slide
+                    img(src="../../img/slide6.jpg" alt="Слайд")
 
 
 block content

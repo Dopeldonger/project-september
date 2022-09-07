@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Dopeldonger/project-september#readme",
   "description": "",
   "devDependencies": {
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "sass": "^1.54.8"
+  },
+  "dependencies": {
+    "fonts": "^0.0.2",
+    "swiper": "^8.3.2"
   }
 }
