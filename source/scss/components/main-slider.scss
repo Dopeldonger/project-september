@@ -1,0 +1,15 @@
+.slider__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1920px;
+  width: 100%;
+}
+.swiper-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.slider-slide {
+  width: 30%;
+}

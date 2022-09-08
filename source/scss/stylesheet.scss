@@ -14,3 +14,8 @@
 @import "components/header-main__nav";
 @import "components/header-main__logo";
 @import "components/header-main__hometown";
+
+.main__wrapper {
+  max-width: 1920px;
+  width: 100%;
+}
