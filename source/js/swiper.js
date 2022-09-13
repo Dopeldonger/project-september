@@ -10,6 +10,8 @@ export function swiper() {
             el: '.swiper-pagination',
             type: 'bullets',
             clickable: true,
+
+
         }
     });
 }

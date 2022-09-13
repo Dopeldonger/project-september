@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "SchoolBook Cyrillic";
+    src: url("../schoolbook-cyrillic/schoolbook-cyrillic.eot"); /* IE9 Compat Modes */
+    src: url("../schoolbook-cyrillic/schoolbook-cyrillic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../schoolbook-cyrillic/schoolbook-cyrillic.otf") format("opentype"), /* Open Type Font */
+    url("../schoolbook-cyrillic/schoolbook-cyrillic.svg") format("svg"), /* Legacy iOS */
+    url("../schoolbook-cyrillic/schoolbook-cyrillic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../schoolbook-cyrillic/schoolbook-cyrillic.woff") format("woff"), /* Modern Browsers */
+    url("../schoolbook-cyrillic/schoolbook-cyrillic.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}

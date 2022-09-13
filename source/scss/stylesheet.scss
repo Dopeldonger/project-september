@@ -2,6 +2,16 @@
 @import "utils/mixins";
 @import "utils/fonts";
 
+
+.main__wrapper {
+  max-width: 1920px;
+  width: 100%;
+}
+body {
+
+}
+
+
 @import "components/header";
 @import "components/main-slider";
 @import "components/services";
@@ -15,7 +25,3 @@
 @import "components/header-main__logo";
 @import "components/header-main__hometown";
 
-.main__wrapper {
-  max-width: 1920px;
-  width: 100%;
-}
