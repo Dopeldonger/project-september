@@ -15,6 +15,8 @@
   font-size: 80px;
   line-height: 110px;
   font-weight: 400;
+  margin-bottom: 55px;
+
 }
 .reception-button {
   color: #ffffff;
@@ -28,6 +30,7 @@
   text-transform: uppercase;
   border-radius: 25px;
   box-shadow: 3px 3px 10px #FFC59E;
+  margin-bottom: 200px;
 }
 
 .contacts {
@@ -48,23 +51,46 @@
   display: flex;
   flex-direction: column;
   gap: 70px;
-  padding-left: 115px;
-
+  padding-left: 190px;
+  top: 10px;
 }
 .swiper-slide {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 265px;
-  max-width: 1504px;
+
 
 }
 .number {
   position: absolute;
 }
 .slider-text {
+  padding-top: 15px;
+  padding-left: 140px;
+  margin-right: 50px;
+}
+.slide-content {
+  max-width: 1504px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-left: auto;
+  overflow: hidden;
+
+}
+
+.swiper-pagination-bullet {
+  color: red;
+  display: none;
+
+}
+.swiper-pagination-bullet-active {
+  color: #007aff;
+  display: none;
+}
+.number {
+  position: absolute;
+  bottom: 80px;
+  right: 10px;
 }

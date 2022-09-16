@@ -8,8 +8,12 @@ export function swiper() {
         modules: [Navigation, Pagination],
         pagination: {
             el: '.swiper-pagination',
-            type: 'bullets',
             clickable: true,
+            vertical: true,
+            renderBullet: function (index) {
+                return '<span class="swiper-pagination-bullet">' + (index + 1) + '</span>';
+            }
+
 
 
         }

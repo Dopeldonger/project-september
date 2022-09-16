@@ -2,15 +2,17 @@
 @import "utils/mixins";
 @import "utils/fonts";
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .main__wrapper {
   max-width: 1920px;
   width: 100%;
 }
-body {
-
-}
-
 
 @import "components/header";
 @import "components/main-slider";
@@ -21,7 +23,5 @@ body {
 @import "components/app";
 @import "components/map";
 @import "components/footer";
-@import "components/header-main__nav";
-@import "components/header-main__logo";
-@import "components/header-main__hometown";
+
 

@@ -1,0 +1,15 @@
+block header
+    section.header-main
+        div.header-main__logo
+            img(src="../../img/logo.png" width="79px" height="62px" alt="Логотип")
+        div.header-main__nav
+            nav
+                ul.nav__ul
+                    +list-item(link,"Личный кабинет")
+                    +list-item(link,"О нас")
+                    +list-item(link,"Новости и акции")
+                    +list-item(link,"Контакты")
+                    +list-item(link,"Блог")
+        div.header-main__hometown
+            img(src="../../img/loc-icon.svg" width="46px" height="46px")
+            button.hometown-button Волгоград

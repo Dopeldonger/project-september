@@ -8,11 +8,11 @@ block header
         div.header-main__nav
             nav
                 ul.nav__ul
-                    +list-item(link,'Личный кабинет')
-                    +list-item(link,'О нас')
-                    +list-item(link,'Новости и акции')
-                    +list-item(link,'Контакты')
-                    +list-item(link,'Блог')
+                    +list-item(link,"Личный кабинет")
+                    +list-item(link,"О нас")
+                    +list-item(link,"Новости и акции")
+                    +list-item(link,"Контакты")
+                    +list-item(link,"Блог")
         div.header-main__hometown
             img(src="../../img/loc-icon.svg" width="46px" height="46px")
             button.hometown-button Волгоград
@@ -22,114 +22,31 @@ block main-wrapper
             div.slider-wrapper
                 div.swiper.slider__swiper
                     div.swiper-wrapper
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Айболит круглосуточная ветклиника
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide1.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Комфортные оборудованные стационары
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide2.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Новейшее европейское оборудование
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide3.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Собственная современная лаборатория
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide4.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Аптека и зоомагазин по доступным ценам
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide5.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
-                        div.swiper-slide
-                            div.slider-text
-                                div.slide-text Груминг салон и косметические товары
-                                button.reception-button Записаться
-                                div.contacts
-                                    a(href="").contacts__type
-                                        img(src="../../img/inst.png" alt="Инстаграмм")
-                                    a(href="").contacts__type
-                                        img(src="../../img/fb.png" alt="Фейсбук")
-                                    a(href="").contacts__type
-                                        img(src="../../img/vk.png" alt="ВКонтакт")
-                                    a(href="").contacts__type
-                                        img(src="../../img/youtube.png" alt="Ютуб")
-                            img(src="../../img/slide6.jpg" alt="Слайд")
-                            a(href="").number +7 (8442) 96 22 92
+                        +slide-item("Айболит круглосуточная ветклиника","slide1.jpg")
+                        +slide-item("Комфортные оборудованные стационары","slide2.jpg")
+                        +slide-item("Новейшее европейское оборудование","slide3.jpg")
+                        +slide-item("Собственная современная лаборатория","slide4.jpg")
+                        +slide-item("Аптека и зоомагазин по доступным ценам","slide5.jpg")
+                        +slide-item("Груминг салон и косметические товары","slide6.jpg")
                     div.swiper-pagination.slider__pagination
 
 
         block content
             p Какой-нибудь текст.
-            +service-item(link,"Терапия","26","therapy.png")
-            +service-item(link,"Хирургия","26","surgery.png")
-            +service-item(link,"Неврология","26","neurology.png")
-            +service-item(link,"Ортопедия","26","orthopedics.png")
-            +service-item(link,"Дерматология","26","dermatology.png")
-            +service-item(link,"Офтальмология","26","ophthalmology.png")
-            +service-item(link,"Кардиология","26","cardiology.png")
-            +service-item(link,"Стоматология","26","dentistry.png")
-            +service-item(link,"Репродуктология","26","reproduction.png")
-            +service-item(link,"Визуальная диагностика","26","visual diagnostics.png")
-            +service-item(link,"Лаборатория","26","lab.png")
-            +service-item(link,"Онкология","26","oncology.png")
-            +service-item(link,"Эндокринология","26","endocr.png")
-            +service-item(link,"Экзотические животные","26","exotic.png")
-            +service-item(link,"Аптека","26","pharmacy.png")
-            +service-item(link,"Груминг","26","grooming.png")
+            div.service-item-wrapper
+                +service-item(link,"Терапия","26","therapy.png")
+                +service-item(link,"Хирургия","26","surgery.png")
+                +service-item(link,"Неврология","26","neurology.png")
+                +service-item(link,"Ортопедия","26","orthopedics.png")
+                +service-item(link,"Дерматология","26","dermatology.png")
+                +service-item(link,"Офтальмология","26","ophthalmology.png")
+                +service-item(link,"Кардиология","26","cardiology.png")
+                +service-item(link,"Стоматология","26","dentistry.png")
+                +service-item(link,"Репродуктология","26","reproduction.png")
+                +service-item(link,"Визуальная диагностика","26","visual diagnostics.png")
+                +service-item(link,"Лаборатория","26","lab.png")
+                +service-item(link,"Онкология","26","oncology.png")
+                +service-item(link,"Эндокринология","26","endocr.png")
+                +service-item(link,"Экзотические животные","26","exotic.png")
+                +service-item(link,"Аптека","26","pharmacy.png")
+                +service-item(link,"Груминг","26","grooming.png")
