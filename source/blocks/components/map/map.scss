@@ -1,0 +1,54 @@
+.map {
+  width: 100%;
+}
+.map__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.map__title {
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 auto 70px auto;
+}
+.contact-title{
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0 auto 20px;
+}
+.contact-item__text{
+  color: #59443F;
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.contact-item__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 30px;
+}
+.map__button {
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: white;
+  padding: 15px 34px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  position: absolute;
+}
+.map__text {
+  padding-left: 230px;
+
+}

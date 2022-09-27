@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel ./source/pug/pages/index.pug --no-cache"
+    "start": "npx parcel ./source/blocks/pages/index.pug --no-cache"
   },
   "repository": {
     "type": "git",

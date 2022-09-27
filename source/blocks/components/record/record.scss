@@ -1,0 +1,36 @@
+.record {
+  width: 100%;
+}
+.record__wrapper {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 290px;
+}
+.record__content {
+  padding-left: 410px;
+}
+.record__number {
+ color: #59443F;
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 110px;
+  margin: 0 auto 33px;
+}
+.record__text {
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+  margin: 0 auto 473px;
+  max-width: 800px;
+}
+.record__img {
+  position: relative;
+  top: 298px;
+  right: 415px;
+
+}

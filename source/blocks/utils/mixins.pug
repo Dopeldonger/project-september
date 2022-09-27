@@ -1,0 +1,56 @@
+mixin service-item(link,title,count,img)
+    -link = link || "#"
+    a.service-item(href=link)
+        .service-item__text
+            h3.service-item__title=title
+            p.service-item__count=count + " услуг"
+        .service-item__img
+            img(src="../../img/"+img width="110px" height="110px")
+mixin list-item(link,text)
+    -link = link || "#"
+    a.list-item(href=link)
+        li.list-item__text=text
+
+mixin slide-item(text,img)
+    div.swiper-slide
+        .slide-content
+            div.slider-text
+                div.slide-text=text
+                button.reception-button Записаться
+                div.contacts
+                    a(href="").contacts__type
+                        img(src="../../img/inst.png" alt="Инстаграмм")
+                    a(href="").contacts__type
+                        img(src="../../img/fb.png" alt="Фейсбук")
+                    a(href="").contacts__type
+                        img(src="../../img/vk.png" alt="ВКонтакт")
+                    a(href="").contacts__type
+                        img(src="../../img/youtube.png" alt="Ютуб")
+            img(src="../../img/"+img alt="Слайд")
+            a(href="").number +7 (8442) 96 22 92
+
+mixin people (link,img)
+    -link = link || "#"
+        a.people(href=link)
+            .people__img
+                img(src="../../img/"+img width="178px" height="178px")
+
+mixin advantage-item (title,img,text)
+    div.advantage-item
+        h3.advantage-item__title=title
+        div.advantage-item__content
+            img(src="../../img/"+img)
+            p.advantage-item__text=text
+mixin contact-item (img,text)
+    div.contact-item
+        div.contact-item__content
+            img(src="../../img/"+img)
+            p.contact-item__text=text
+
+mixin footer-item(link,text)
+    -link = link || "#"
+        a.footer-item(href=link)
+            .footer-item__text=text
+
+
+

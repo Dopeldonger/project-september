@@ -1,0 +1,36 @@
+.app{
+  width: 100%;
+  background-color: #FFC59E;
+}
+.app__wrapper {
+  max-width: 1920px;
+  margin: 0 auto 309px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 253px;
+}
+.app__content {
+  max-width: 826px;
+  padding-left: 240px;
+}
+.soon {
+  color: white;
+  font-family: "Futura New", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+  margin: 0 auto 30px;
+}
+.app__text {
+  color: white;
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-size: 80px;
+  line-height: 110px;
+  margin: 0 auto 30px;
+}
+
+.app__img-1 {
+  position: relative;
+  top: 0;
+  right: 0;
+}

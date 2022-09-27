@@ -1,0 +1,19 @@
+block map
+    section.map
+        div.map__wrapper
+            div.map__text
+                h2.map__title Контакты
+                div.map__contact
+                    h3.contact-title Айболит на Краснополянской
+                    +contact-item("loc-icon.svg", "Дзержинский район, ул. Краснополянская, 30")
+                    +contact-item("ic-phone.svg", "96 22 92")
+                    +contact-item("ic-clock.svg", "Круглосуточно")
+                div.map__contact
+                    h3.contact-title Айболит на Тулака
+                    +contact-item("loc-icon.svg", "Советский район, ул. Карла Маркса, 7")
+                    +contact-item("ic-phone.svg", "96 22 92")
+                    +contact-item("ic-clock.svg", "Круглосуточно")
+            div.map__img
+                img(src="../../img/map.png" alt="Карта" width="950px" height="526px")
+                button.map__button Как добраться?
+                    img(src="../../img/yandex-red.svg" alt="Иконка местоположения")

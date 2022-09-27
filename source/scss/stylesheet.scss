@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,15 +14,18 @@ html {
   max-width: 1920px;
   width: 100%;
 }
+body {
+  margin: 0 auto;
+}
 
-@import "components/header";
-@import "components/main-slider";
-@import "components/services";
-@import "components/about-us";
-@import "components/record";
-@import "components/advantages";
-@import "components/app";
-@import "components/map";
-@import "components/footer";
+@import "../blocks/components/header/header";
+@import "../blocks/components/main-slider/main-slider";
+@import "../blocks/components/services/services";
+@import "../blocks/components/about-us/about-us";
+@import "../blocks/components/record/record";
+@import "../blocks/components/advantages/advantages";
+@import "../blocks/components/app/app";
+@import "../blocks/components/map/map";
+@import "../blocks/components/footer/footer";
 
 

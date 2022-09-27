@@ -1,0 +1,25 @@
+include ../utils/mixins
+
+doctype html
+html(lang="en")
+    head
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../../scss/stylesheet.scss">
+        <link href = "../../scss/fonts/futura-new/stylesheet.css" rel = "stylesheet" type = "text/css" />
+        <link href = "../../scss/fonts/schoolbook-cyrillic/stylesheet.css" rel = "stylesheet" type = "text/css" />
+
+    body
+        block header
+        main
+            block main-wrapper
+                block slider
+                block content
+                block about-us
+                block record
+                block advantages
+                block app
+                block map
+        block footer
+
+script(src="../../js/index.js" type="module")

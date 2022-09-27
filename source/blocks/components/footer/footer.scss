@@ -1,0 +1,50 @@
+.footer {
+  width: 100%;
+  background-color: #59443F;
+}
+.footer__wrapper {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo-title {
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  color: white;
+  margin: 0 auto;
+}
+.logo-p {
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+  margin: 0 auto;
+}
+.footer-item {
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.footer__mail {
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.footer__text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

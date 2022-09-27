@@ -1,0 +1,46 @@
+.advantages {
+  width: 100%;
+}
+.advantages__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.advantages__title {
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.advantages__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+}
+
+.advantage-item{
+
+}
+.advantage-item__title {
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.advantage-item__text {
+  color: #59443F;
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.advantage-item:last-child {
+  margin-bottom: 309px;
+}

@@ -1,0 +1,23 @@
+block about-us
+    section.about-us
+        div.about-us__wrapper
+            div.history
+                h3.history__title История компании
+                p.history__text История компании начинается 14 января 1999 года, когда было образовано ООО «Чижи». Идея пришла, т.к. у основателя компании Прозор Жанны Георгиевны была собака боксёр по кличке Бард…
+                button.history__button Читать далее
+                    img(src="../../img/ic-arrow.svg" alt="Стрелка")
+            div.personnel
+                h2.personnel__title Наши специалисты
+                div.personnel__scroll
+                    button.personnel__swap-button-left
+                        img(src="../../img/ic-arrow-left.svg" alt="Стрелка" width="24px" height="20px")
+                    +people(link,"people-1.png")
+                    +people(link,"people-2.png")
+                    +people(link,"people-1.png")
+                    +people(link,"people-3.png")
+                    +people(link,"people-3.png")
+                    +people(link,"people-3.png")
+                    button.personnel__swap-button-right
+                        img(src="../../img/ic-arrow-right.svg" alt="Стрелка" width="24px" height="20px")
+                button.personnel__button Посмотреть всех
+                    img(src="../../img/ic-arrow.svg" alt="Стрелка")

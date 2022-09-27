@@ -1,0 +1,114 @@
+.about-us {
+  width: 100%;
+  background-color: #FBF8F8;
+
+}
+.about-us__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+
+}
+.history {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 40px;
+
+
+}
+.history__title {
+  margin: 0 auto 52px;
+  font-family: "SchoolBook Cyrillic", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 307px;
+}
+.history__text {
+  margin: 0 auto 36px auto;
+  font-family: "Futura New", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #59443F;
+  max-width: 490px;
+}
+.history__button {
+  color: #FFC59E;
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #FBF8F8;
+  border-style: none;
+  text-transform: uppercase;
+  padding: 2px;
+  margin-bottom: 95px;
+  align-self: center;
+   &:hover {
+     cursor: pointer;
+   }
+  &:active {
+    cursor: pointer;
+  }
+}
+.personnel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+.personnel__title {
+  font-family: "SchoolBook Cyrillic", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 auto 48px;
+}
+.personnel__scroll {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 36px;
+
+
+}
+.personnel__swap-button-left {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #FFC59E;
+}
+.personnel__swap-button-right {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #FFC59E;
+}
+.personnel__button {
+  color: #FFC59E;
+  font-family: "Futura New", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #FBF8F8;
+  border-style: none;
+  text-transform: uppercase;
+  margin-bottom: 223px;
+  align-self: center;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    cursor: pointer;
+  }
+}
